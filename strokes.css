@@ -1,0 +1,152 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: arial;
+   
+  }
+  
+  .imgheader {
+    display: block;
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    
+  }
+  
+  .containter {
+    width: 100%;
+    background : rgb(255,255,255);
+    display: grid; 
+    grid-template-rows: 100px 900px 200x 75x 75x 75x;
+    grid-template-columns: 500px 200px 900px 200px 200px 500px;
+  }
+
+
+  
+  .d1 {background:black;}
+  .d2 {
+    background:black;
+    align-self:center;
+   
+  }
+  .d3 {background:black;}
+  .d4 {
+      background:#730000;
+      border:1px;
+      border-radius: 25px;
+      margin-top:25px;
+      margin-bottom:25px;
+      margin-left:200px;
+      margin-right:200px;
+      height:290px;
+      
+}
+
+  .d5 {
+      background:#CC9200;
+      border:1px;
+      border-radius: 25px;
+      margin-top:25px;
+      margin-bottom:25px;
+      margin-left:200px;
+      margin-right:200px;
+      height:290px;
+      
+    }
+  .d6 {
+      background:#171717;
+      border:1px;
+      border-radius: 25px;
+      margin-top:25px;
+      margin-bottom:25px;
+      margin-left:200px;
+      margin-right:200px;
+      height:290px;
+    }
+  .d7 {
+      background: #CC9200;
+      border:1px;
+      border-radius: 25px;
+      margin-top:25px;
+      margin-bottom:25px;
+      margin-left:200px;
+      margin-right:200px;
+      height:350px;
+    }
+  .d8 {
+      background: #730000;
+      border:1px;
+      border-radius: 25px;
+      margin-top:25px;
+      margin-bottom:25px;
+      margin-left:200px;
+      margin-right:200px;
+      height:320px;
+    }
+  
+  
+  
+  
+    p {
+        font-size: 24px;
+        padding-left: 300px;
+        padding-right: 300px;
+        padding-top: 100px;
+        padding-bottom: 225px;
+  }
+  .album-art {
+      width:250px;
+      height:250px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border: 1px;
+      border-radius: 30px;
+      float: left;
+  }
+
+  #anim {
+    animation-name: colorful;
+    animation-duration: 3s;
+  }
+  @keyframes colorful {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+ 
+  .album-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px; 
+  }
+
+
+  footer {
+      font-size: 12px;
+      text-align: right;
+      margin-top: 200px;
+  }
+
+h1 {
+    padding-top:20px;
+}
+
+.album-text {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+
+footer {
+    padding-top: 200px;
+}
